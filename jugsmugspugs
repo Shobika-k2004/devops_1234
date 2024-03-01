@@ -1,0 +1,7 @@
+n=int(input("Enter a Number:"))
+list1=[3,5,7]
+list2=["Jugs","Mugs","Pugs"]
+for i in list1:
+    if n%i==0:
+        a=list1.index(i)
+        print(list2[a],end="")
